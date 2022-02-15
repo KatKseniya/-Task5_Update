@@ -43,7 +43,7 @@ public class NumberCalculator {
 		}
 		else if (data.getSign() == Sign.MULTIPLY)
 		{
-			result = data.getNumber1().doubleValue() - data.getNumber2().doubleValue();
+			result = data.getNumber1().doubleValue() * data.getNumber2().doubleValue();
 		}
 		else
 		{
